@@ -4,10 +4,6 @@ body {
     background-color: #8dc63f;
 }
 
-.clear {
-    clear: both;
-}
-
 .wrapper {
     margin: 0 auto;
     padding: 0 15px;
@@ -16,6 +12,8 @@ body {
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
     padding: 25px 0;
 }
 
@@ -39,10 +37,9 @@ body {
     color: #5a5a5a;
 }
 
-.logo,
-.logo p,
-.logo img {
-    float: left;
+.logo {
+    display: flex;
+    align-items: center;
 }
 
 .logo img {
@@ -59,10 +56,6 @@ body {
     margin-bottom: 10px;
 }
 
-.contacts {
-    float: right;
-}
-
 .contacts i {
     text-align: right;
 }
@@ -71,8 +64,13 @@ body {
     width: 100%;
 }
 
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
 .content {
-    float: left;
     max-width: 600px;
 }
 
@@ -89,7 +87,6 @@ body {
 }
 
 .menu {
-    float: right;
     width: 300px;
 }
 
